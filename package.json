@@ -1,0 +1,23 @@
+{
+  "name": "grunt-testing",
+  "version": "1.0.0",
+  "description": "This is a test project for npm and grunt",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Grunt",
+    "NPM",
+    "Node",
+    "Task",
+    "Runner",
+    "Package",
+    "Manager"
+  ],
+  "author": "Cameron Shaw",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
