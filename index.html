@@ -2,17 +2,45 @@
 <html>
 <head>
 	<title>Grunt testing</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="css/sass.min.css">
 </head>
 <body>
 
 	<h1> grunt testing </h1>
 
+	<p> SETTING UP SERVER </P><br>
+
+	<P> vagrant up - initiates the server, brings it to life </P></br>
+	<p> cd /vagrant --- enter into the project </p><br>
+	<p> curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash ---- installs nvm on the server </p></br>
+	<p> nvm -- version and npm -v --- checks whether they are installed/ the versions </p></br>
+	<p> exit --- logs out of server </p></br>
+	<p>nvm install node --- installs node.js</p><br>
+	<p>npm init --- creates package.json- a list of dependancies for the project</p>
+	<p>npmjs.com --- look for packages eg jquery</p>
+	<p>npm install jquery --save</p>
+	<p>.gitignore --- creates a file for git to ignore, type in node_modules and it will ignore node_modules folder</p><br><br>
+	
+	<p> INSTALLING GRUNT </P><br>
+
+	<p>npm install -g grunt-cli --- grunt system path installed (make sure u are in the project folder on terminal</p><br>
+	<p>npm install grunt --save-dev --- adds latest version to the devdependancies (check package.json for it) </p><br>
+
+	<p>grunt functions</p>
+	<p>control c --- ends watch function</p>
+
+
+
+	<p>INSTALL SASS ON GRUNT</p>
+	<p>sude apt-get install ruby-sass< --- installs sass/p>
 
 
 
 
+
+<!-- <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script.min.js"></script>
 </body>
 </html>
